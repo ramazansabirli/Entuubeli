@@ -1,0 +1,30 @@
+
+<html>
+    <head><title>Hasta Girişi</title></head>
+    <body>
+        <h2>Hasta Verisi Girişi</h2>
+        <form action="/form-predict/" method="post">
+            Age: <input type="number" name="Age"><br>
+            Sex (0=Male, 1=Female): <input type="number" name="Sex"><br>
+            Weight (kg): <input type="number" step="0.1" name="Weight_kg"><br>
+            Height (cm): <input type="number" step="0.1" name="Height_cm"><br>
+            RR: <input type="number" name="RR_pre"><br>
+            HR: <input type="number" name="HR_pre"><br>
+            SBP: <input type="number" name="SBP_pre"><br>
+            DBP: <input type="number" name="DBP_pre"><br>
+            SpO2: <input type="number" step="0.1" name="SpO2_pre"><br>
+            GCS: <input type="number" name="GCS_pre"><br>
+            pH: <input type="number" step="0.01" name="pH_pre"><br>
+            pCO2: <input type="number" step="0.1" name="pCO2_pre"><br>
+            pO2: <input type="number" step="0.1" name="pO2_pre"><br>
+            HCO3: <input type="number" step="0.1" name="HCO3_pre"><br>
+            BE: <input type="number" step="0.1" name="BE_pre"><br>
+            Lactate: <input type="number" step="0.01" name="Lactate_pre"><br>
+            FiO2: <input type="number" name="FiO2_pre"><br>
+            Accessory Muscle Use (0/1): <input type="number" name="Accessory_Muscle_Use"><br>
+            Clinical Diagnosis (numeric): <input type="number" name="Clinical_Diagnosis"><br>
+            Primary Complaint (numeric): <input type="number" name="Primary_Complaint"><br>
+            <input type="submit" value="Tahmin Et">
+        </form>
+    </body>
+</html>
